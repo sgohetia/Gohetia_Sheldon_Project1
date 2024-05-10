@@ -13,13 +13,8 @@ body {
   margin: 20px auto;
   width: 428px;
   border: solid 1px #333;
-  background: rgb(195, 158, 34);
-  background: radial-gradient(
-    circle,
-    rgba(195, 158, 34, 1) 0%,
-    rgba(224, 203, 40, 1) 50%,
-    rgba(253, 187, 45, 1) 100%
-  );
+  background: rgb(248, 247, 243);
+
   border-radius: 10px;
 }
 
@@ -68,7 +63,7 @@ h1 {
   margin-bottom: 10px;
   font-size: 38px;
   letter-spacing: 5px;
-  text-shadow: 1px 1px 0 #fff;
+  text-shadow: 2px 2px 0 #e4a802;
 }
 p {
   line-height: 28px;
@@ -81,9 +76,9 @@ h1 + p::first-letter {
   float: left;
   font-size: 32px;
   border-radius: 5px;
-  box-shadow: 3px 3px 0 #fff;
+  box-shadow: 3px 3px 0 #fad504;
 }
 .spanQ {
-  text-shadow: 1px 1px 0 #fff;
+  text-shadow: 1px 1px 0 #fad504;
   letter-spacing: 2px;
 }
