@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+  display: none;
+}
+body {
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#container {
+  margin: 20px auto;
+  width: 428px;
+  border: solid 1px #333;
+  background: rgb(195, 158, 34);
+  background: radial-gradient(
+    circle,
+    rgba(195, 158, 34, 1) 0%,
+    rgba(224, 203, 40, 1) 50%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+#mainContent {
+  display: grid;
+  grid-template-columns: repeat(4, 85px);
+  grid-column-gap: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+article {
+  grid-column: 1/-1;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.thumbnail {
+  margin-top: 18px;
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/img1.jpg);
+  border-radius: 10px;
+}
+.thumbnail2 {
+  margin-top: 18px;
+  width: 390px;
+  height: 200px;
+  background-image: url(../images/hp-mobl-hero-quench.jpg);
+  border-radius: 10px;
+}
+.thumbnail3 {
+  margin-top: 18px;
+  width: 390px;
+  height: 320px;
+  background-image: url(../images/hp-desk-hero-square-quench2.jpg);
+  border-radius: 10px;
+}
+#badge:hover {
+  background-position-y: -265px;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 0 #fff;
+}
+p {
+  line-height: 28px;
+}
+h1 + p::first-letter {
+  color: antiquewhite;
+  background-color: black;
+  padding: 14px 6px;
+  margin-right: 8px;
+  float: left;
+  font-size: 32px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0 #fff;
+}
+.spanQ {
+  text-shadow: 1px 1px 0 #fff;
+  letter-spacing: 2px;
+}
