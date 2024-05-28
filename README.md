@@ -1,4 +1,4 @@
-# Gohetia_Sheldon_Project1-main.zip
+# Gohetia_Sheldon_Project1
 
 This repo is for HW1 - FOLDER STRUCTURE &amp; TYPOGRAPHY
 
